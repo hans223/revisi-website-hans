@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+
+    <title>My Travel Guide</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <a class="navbar-brand" href="#">Menggoda</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Destination
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Kinkakku-ji.html">Japan</a>
+                            <a class="dropdown-item" href="Florence.html">Italy</a>
+                            <a class="dropdown-item" href="Bukchon Hanok Village.html">Korea</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="input-group">
+                        <input class="form-control mr-sm-2" type="text" href="#" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" href="Japan Dest" id="myInput" onkeyup="myFunction()" type="submit">Search</button>
+                        <input id="total-price" class="form-control mr-sm-2" type="text" placeholder="Total Price" aria-label="Price">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid">
+        <h1>We are the best travel website in the world</h1>
+        <p>Live with no excuses and travel with no regrets</p>
+        <marquee behavior="slide" width="400">Hans William Herman</marquee><br>
+    </div>
+    <div class="container-sm rounded" id="main3">
+        <form>
+            <div class="card-group">
+                <div class="card" style="width: 18rem;" id="card-A">
+                    <img src="Colosseum.jpg" class="card-img-top " alt="Responsive image" style="width: 10rem;" id="imgcardA">
+                    <div class="card-body">
+                        <h5 class="card-title">The Colosseum</h5>
+                        <p class="card-text">The Colosseum or coliseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of the city of Rome,Italy.Built of travertine limestone, tuff, and brick-faced concrete, it was the largest amphitheatre ever
+                            built at the time and it held up 50.000 until 80.000 spectators.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          See More
+          </button>
+                        <a href="#" product-price="7500000" class="btn btn-primary">IDR 7.500.000</a>
+                        <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">The Colosseum</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Colosseum.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;">
+                                <p class="card-text">The Colosseum or coliseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of the city of Rome,Italy.Built of travertine limestone, tuff, and brick-faced concrete, it was the largest amphitheatre
+                                    ever built at the time and it held up 50.000 until 80.000 spectators.</p>
+                                <a href="#" product-price="7500000" class="btn btn-primary">IDR 7.500.000</a>
+                                <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;" id="card-B">
+                    <img src="gyeongbokgung palace.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;" id="imgcardB">
+                    <div class="card-body">
+                        <h5 class="card-title">Gyeongbokgung Palace</h5>
+                        <p class="card-text">Built in 1395, Gyeongbokgung Palace is also commonly referred to as the Northern Palace because its location is furthest north when compared to the neighboring palaces of Changdeokgung (Eastern Palace) and Gyeonghuigung (Western
+                            Palace) Palace. Gyeongbokgung Palace is arguably the most beautiful, and remains the largest of all five palaces. The premises were once destroyed by fire during the Imjin War (Japanese Invasions, 1592-1598). However, all of
+                            the palace buildings were later restored under the leadership of Heungseondaewongun during the reign of King Gojong (1852-1919). Remarkably, the most representative edifices of the Joseon Dynasty, Gyeonghoeru Pavilion and Hyangwonjeong
+                            Pond have remained relatively intact. Woldae and the sculptures of Geunjeongjeon (The Royal Audience Chamber) represent past sculptures of contemporary art. The National Palace Museum of Korea is located south of Heungnyemun
+                            Gate, and the National Folk Museum is located on the eastern side within Hyangwonjeong.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#TokyoModal">
+          See More
+          </button>
+                        <a href="#" product-price="1750000" class="btn btn-primary">IDR 1.750.000</a>
+                        <a href="#" class="btn btn-secondary">Add to Wishlist</a>
+                    </div>
+                </div>
+
+
+
+                <div class="modal fade" id="TokyoModal" tabindex="-1" role="dialog" aria-labelledby="TokyoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="TokyoModalLabel">Gyeongbokgung Palace</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="gyeongbokgung palace.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;">
+                                <p class="card-text">Built in 1395, Gyeongbokgung Palace is also commonly referred to as the Northern Palace because its location is furthest north when compared to the neighboring palaces of Changdeokgung (Eastern Palace) and Gyeonghuigung
+                                    (Western Palace) Palace. Gyeongbokgung Palace is arguably the most beautiful, and remains the largest of all five palaces. The premises were once destroyed by fire during the Imjin War (Japanese Invasions, 1592-1598).
+                                    However, all of the palace buildings were later restored under the leadership of Heungseondaewongun during the reign of King Gojong (1852-1919). Remarkably, the most representative edifices of the Joseon Dynasty, Gyeonghoeru
+                                    Pavilion and Hyangwonjeong Pond have remained relatively intact. Woldae and the sculptures of Geunjeongjeon (The Royal Audience Chamber) represent past sculptures of contemporary art. The National Palace Museum of Korea
+                                    is located south of Heungnyemun Gate, and the National Folk Museum is located on the eastern side within Hyangwonjeong.</p>
+                                <a href="#" product-price="1750000" class="btn btn-primary">IDR 1.750.000</a>
+                                <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;" id="card-C">
+                    <img src="Akihabara.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;" id="imgcardC">
+                    <div class="card-body">
+                        <h5 class="card-title">Akihabara</h5>
+                        <p class="card-text">Akihabara or also called akiba after a local shrine. is a district in a central Tokyo that is famous for it's electronics. and in Akihabara also be the center of modern Japanese popular culture and a major shopping district for
+                            video games,anime,manga,and all related goods </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#JapanModal">
+        See More
+        </button>
+                        <a href="#" product-price="3000000" class="btn btn-primary">IDR 3.000.000</a>
+                        <a href="#" class="btn btn-secondary">Add To Wishlist</a>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="JapanModal" tabindex="-1" role="dialog" aria-labelledby="JapanModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="JapanModalLabel">Akihabara</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Akihabara.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;">
+                                <p class="card-text">Akihabara or also called akiba after a local shrine. is a district in a central Tokyo that is famous for it's electronics. and in Akihabara also be the center of modern Japanese popular culture and a major shopping district
+                                    for video games,anime,manga,and all related goods</p>
+                                <a href="#" product-price="3000000" class="btn btn-primary">IDR 3.000.000</a>
+                                <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="index7.js">
+    </script>
+</body>
+
+</html>

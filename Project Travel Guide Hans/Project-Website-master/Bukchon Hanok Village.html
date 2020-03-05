@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+
+    <title>My Travel Guide</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <a class="navbar-brand" href="#">Menggoda</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Destination
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Kinkakku-ji.html">Japan</a>
+                            <a class="dropdown-item" href="Florence.html">Italy</a>
+                            <a class="dropdown-item" href="Bukchon Hanok Village.html">Korea</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input id="total-price" class="form-control mr-sm-2" type="text" placeholder="Total Price" aria-label="Price">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid">
+        <h1>We are the best travel website in the world</h1>
+        <p>Live with no excuses and travel with no regrets</p>
+        <marquee behavior="slide" width="400">Hans William Herman</marquee><br>
+        <marquee behavior="slide" width="400">Hacktiv8 Students</marquee>
+    </div>
+    <div class="container-sm rounded" id="main3">
+        <form>
+            <div class="card-group">
+                <div class="card" style="width: 18rem;" id="BukchonHanokVillage">
+                    <img src="Bukchon Hanok Village.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;" id="imgcardA">
+                    <div class="card-body">
+                        <h5 class="card-title">BukchonHanokVillage</h5>
+                        <p class="card-text">Bukchon Hanok Village is a Korean traditional village in Seoul with a long history located on the top of a hill between Gyeongbok Palace, Changdeok Palace and Jongmyo Royal Shrine. The traditional village is composed of lots of
+                            alleys, hanok and is preserved to show a 600-year-old urban environment.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bukchonModal">
+          See More
+          </button>
+                        <a href="#" product-price="9000000" class="btn btn-primary">IDR 9.000.000</a>
+                        <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="bukchonModal" tabindex="-1" role="dialog" aria-labelledby="bukchonLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="bukchonLabel">Bukchon Hanok Village</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Bukchon Hanok Village.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;">
+                                <p class="card-text">Bukchon Hanok Village is a Korean traditional village in Seoul with a long history located on the top of a hill between Gyeongbok Palace, Changdeok Palace and Jongmyo Royal Shrine. The traditional village is composed of
+                                    lots of alleys, hanok and is preserved to show a 600-year-old urban environment.</p>
+                                <a href="#" product-price="9000000" class="btn btn-primary">IDR 9.000.000</a>
+                                <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;" id="HaeundaeBeach">
+                    <img src="Haeundae Beach.jpg" class="card-img-top" alt="Responsive image" style="width: 20rem;" id="imgcardB">
+                    <div class="card-body">
+                        <h5 class="card-title">HaeundaeBeach</h5>
+                        <p class="card-text">Haeundae Beach is an urban beach in Busan, South Korea. Often dubbed one of the country's most famous and popular beaches, it is located in the eponymous Haeundae District. The beach is busy year-round, and various festivals are
+                            held there throughout the year. A popular beach event, "Polar Bear Club", during which participants bath in near freezing water, has been held annually since 1988 in January. Haeundae is closely associated with cinema, as it
+                            partly hosts the Busan International Film Festival, and was featured prominently in the 2009 disaster film Tidal Wave. Popular sights near the beach include Dongbaekseom, at its west end, which is a popular fishing area. Oryukdo,
+                            a group of small islets east of the beach, which are considered a symbol of Busan. The neighborhood surrounding Haeundae is home to most of Busan's expatriate population. Due to its fame, Haeundae is one of the most expensive
+                            areas in South Korea, and the most expensive outside of the Seoul Capital Area. This has led to numerous urban development projects near the beach and the nearby Marine City, including skyscrapers such as Haeundae Doosan We've
+                            the Zenith and Haeundae LCT The Sharp.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#haeundaeModal">
+          See More
+          </button>
+                        <a href="#" product-price="7000000" class="btn btn-primary">IDR 7.000.000</a>
+                        <a href="#" class="btn btn-secondary">Add to Wishlist</a>
+                    </div>
+                </div>
+
+
+
+                <div class="modal fade" id="haeundaeModal" tabindex="-1" role="dialog" aria-labelledby="haeundaeLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="haeundaeLabel">HaeundaeBeach</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Haeundae Beach.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;">
+                                <p class="card-text">Haeundae Beach is an urban beach in Busan, South Korea. Often dubbed one of the country's most famous and popular beaches, it is located in the eponymous Haeundae District. The beach is busy year-round, and various festivals
+                                    are held there throughout the year. A popular beach event, "Polar Bear Club", during which participants bath in near freezing water, has been held annually since 1988 in January. Haeundae is closely associated with
+                                    cinema, as it partly hosts the Busan International Film Festival, and was featured prominently in the 2009 disaster film Tidal Wave. Popular sights near the beach include Dongbaekseom, at its west end, which is a popular
+                                    fishing area. Oryukdo, a group of small islets east of the beach, which are considered a symbol of Busan. The neighborhood surrounding Haeundae is home to most of Busan's expatriate population. Due to its fame, Haeundae
+                                    is one of the most expensive areas in South Korea, and the most expensive outside of the Seoul Capital Area. This has led to numerous urban development projects near the beach and the nearby Marine City, including skyscrapers
+                                    such as Haeundae Doosan We've the Zenith and Haeundae LCT The Sharp.</p>
+                                <a href="#" product-price="7000000" class="btn btn-primary">IDR 7.000.000</a>
+                                <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                <script src="index10.js"></script>

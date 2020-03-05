@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+
+    <title>My Travel Guide</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <a class="navbar-brand" href="#">Menggoda</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Destination
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Kinkakku-ji.html">Japan</a>
+                            <a class="dropdown-item" href="Florence.html">Italy</a>
+                            <a class="dropdown-item" href="Bukchon Hanok Village.html">Korea</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input id="total-price" class="form-control mr-sm-2" type="text" placeholder="Total Price" aria-label="Price">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid">
+        <h1>We are the best travel website in the world</h1>
+        <p>Live with no excuses and travel with no regrets</p>
+        <marquee behavior="slide" width="400">Hans William Herman</marquee><br>
+        <marquee behavior="slide" width="400">Hacktiv8 Students</marquee>
+    </div>
+    <div class="container-sm rounded" id="main3">
+        <form>
+            <div class="card-group">
+                <div class="card" style="width: 18rem;" id="Florence">
+                    <img src="Florence.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;" id="imgcardA">
+                    <div class="card-body">
+                        <h5 class="card-title">Florence</h5>
+                        <p class="card-text">Florence, capital of Italy’s Tuscany region, is home to many masterpieces of Renaissance art and architecture. One of its most iconic sights is the Duomo, a cathedral with a terracotta-tiled dome engineered by Brunelleschi and
+                            a bell tower by Giotto. The Galleria dell'Accademia displays Michelangelo’s “David” sculpture. The Uffizi Gallery exhibits Botticelli’s “The Birth of Venus” and da Vinci’s “Annunciation.” Another architectural highlight is
+                            the Ponte Vecchio, a medieval stone-arch pedestrian bridge that’s packed with jewelry stores. Near the bridge, on the south bank of the Arno River, is massive Palazzo Pitti, once home to the powerful Medici family, showing
+                            works by such renowned artists as Raphael and Titian. On the north bank, the Piazza del Signoria is one the city’s most visited squares thanks to the imposing Palazzo Vecchio (the town hall) and the much-photographed statue
+                            “Perseus with the Head of Medusa” by Cellini</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          See More
+          </button>
+                        <a href="#" product-price="4500000" class="btn btn-primary">IDR 4.500.000</a>
+                        <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Florence</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Florence.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;">
+                                <p class="card-text">Florence, capital of Italy’s Tuscany region, is home to many masterpieces of Renaissance art and architecture. One of its most iconic sights is the Duomo, a cathedral with a terracotta-tiled dome engineered by Brunelleschi
+                                    and a bell tower by Giotto. The Galleria dell'Accademia displays Michelangelo’s “David” sculpture. The Uffizi Gallery exhibits Botticelli’s “The Birth of Venus” and da Vinci’s “Annunciation.” Another architectural highlight
+                                    is the Ponte Vecchio, a medieval stone-arch pedestrian bridge that’s packed with jewelry stores. Near the bridge, on the south bank of the Arno River, is massive Palazzo Pitti, once home to the powerful Medici family,
+                                    showing works by such renowned artists as Raphael and Titian. On the north bank, the Piazza del Signoria is one the city’s most visited squares thanks to the imposing Palazzo Vecchio (the town hall) and the much-photographed
+                                    statue “Perseus with the Head of Medusa” by Cellini</p>
+                                <a href="#" product-price="4500000" class="btn btn-primary">IDR 4.500.000</a>
+                                <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;" id="PonteVecchio">
+                    <img src="Ponte Vecchio.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;" id="imgcardB">
+                    <div class="card-body">
+                        <h5 class="card-title">PonteVecchio</h5>
+                        <p class="card-text">The Ponte Vecchio is a medieval stone closed-spandrel segmental arch bridge over the Arno River, in Florence, Italy. It is noted for its shops built along it, as was once common. Butchers initially occupied the shops; the present
+                            tenants are jewelers, art dealers, and souvenir sellers</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ponteModal">
+          See More
+          </button>
+                        <a href="#" product-price="6750000" class="btn btn-primary">IDR 6.750.000</a>
+                        <a href="#" class="btn btn-secondary">Add to Wishlist</a>
+                    </div>
+                </div>
+
+
+
+                <div class="modal fade" id="ponteModal" tabindex="-1" role="dialog" aria-labelledby="pontelLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ponteLabel">PonteVecchio</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="Ponte Vecchio.jpg" class="card-img-top" alt="Responsive image" style="width: 10rem;">
+                                <p class="card-text">The Ponte Vecchio is a medieval stone closed-spandrel segmental arch bridge over the Arno River, in Florence, Italy. It is noted for its shops built along it, as was once common. Butchers initially occupied the shops; the
+                                    present tenants are jewelers, art dealers, and souvenir sellers</p>
+                                <a href="#" product-price="6750000" class="btn btn-primary">IDR 6.750.000</a>
+                                <a href="#" class="btn btn-secondary">Add to wishlist</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                <script src="index9.js"></script>

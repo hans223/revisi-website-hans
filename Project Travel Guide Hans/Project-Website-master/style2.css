@@ -1,0 +1,123 @@
+html,
+body {
+    height: 100%;
+    background-color: lightsteelblue;
+}
+
+a.nav-link {
+    color: aqua;
+    font-size: 25px;
+}
+
+a.nav-link :hover {
+    color: burlywood;
+}
+
+#search {
+    border: 0;
+    border-radius: 30px;
+}
+
+#total {
+    border: 0;
+    border-radius: 30px;
+}
+
+.jumbotron {
+    background-image: url(./Jumbotron.jpg);
+    background-size: cover;
+    margin-top: -40;
+    height: 500px;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    padding-top: 15px;
+    color: greenyellow;
+    text-shadow: slateblue;
+}
+
+.jumbotron p {
+    font-size: 50px;
+    color: rgb(165, 14, 14);
+}
+
+#main3 {
+    background-color: brown;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#card-A,
+#card-B,
+#card-C {
+    padding: 5px;
+    background-color: pink;
+}
+
+#imgcardA,
+#imgcardB,
+#imgcardC {
+    width: 50px;
+    height: 75px;
+}
+
+.modal img {
+    height: 200px;
+    width: 100px;
+}
+
+p .modal-text {
+    text-align: initial;
+}
+
+marquee {
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    background: #988722;
+    color: #333;
+    border: 1px solid #4a4a4a;
+}
+
+marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 10s linear infinite;
+    -webkit-animation: scroll-left 10s linear infinite;
+    animation: scroll-left 20s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}

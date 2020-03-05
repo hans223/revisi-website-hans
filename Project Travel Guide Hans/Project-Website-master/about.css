@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    background-color: crimson;
+}
+
+a.nav-link {
+    color: goldenrod;
+    font-size: 25px;
+}
+
+a.nav-link :hover {
+    color: burlywood;
+}
+
+#search {
+    border: 0;
+    border-radius: 30px;
+}
+
+#total {
+    border: 0;
+    border-radius: 45px;
+}
+
+#konten {
+    background-color: khaki;
+    margin-right: 10px;
+}
